@@ -106,7 +106,7 @@ Based on the example "sample component" code above, this is the resulting output
 		/* Universal rules for #selector go here, all browsers get these rules */
 	}
 
-	@media only screen and (max-width: 320px) {
+	@media only screen and (min-width: 320px) {
 		.selector {
 			/* Rules for any desired media query triggers go here, in this case it's a min-width: 320px rule */
 		}
