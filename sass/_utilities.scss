@@ -1,0 +1,38 @@
+//
+// Settings
+//
+
+$down767: "only screen and (max-width: 767px)";
+$up320: "only screen and (min-width: 320px)";
+$up480: "only screen and (min-width: 480px)";
+$up768: "only screen and (min-width: 768px)";
+$up992: "only screen and (min-width: 992px)";
+$up1200: "only screen and (min-width: 1200px)";
+$up1320: "only screen and (min-width: 1320px)";
+
+$x2: "only screen and (min-device-pixel-ratio: 1.3), only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min device-pixel-ratio: 13/10), only screen and (min-resolution: 120dpi)";
+
+//
+// Buffers
+//
+
+// Standard
+
+@buffer down767 {}
+@buffer up320 {}
+@buffer up480 {}
+@buffer up768 {}
+@buffer up992 {}
+@buffer up1200 {}
+@buffer up1320 {}
+
+// Retina
+
+@buffer allx2 {}
+@buffer down767x2 {}
+@buffer up320x2 {}
+@buffer up480x2 {}
+@buffer up768x2 {}
+@buffer up992x2 {}
+@buffer up1200x2 {}
+@buffer up1320x2 {}

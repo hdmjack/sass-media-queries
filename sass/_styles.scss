@@ -1,0 +1,76 @@
+//
+// Container
+//
+
+.container {
+    color: blue;
+    background-image: url("standard.png");
+}
+
+@buffer up320 {
+    .container {
+        padding: 1em;
+        a {
+            text-decoration: underline;
+        }
+    }
+}
+
+@buffer up992 {
+    .container {
+        padding: 2em;
+    }
+}
+
+//
+// Menu
+//
+
+.menu {
+    color: red;
+}
+
+@buffer up320 {
+    .menu {
+        width: auto;
+    }
+}
+
+@buffer up992 {
+    .menu {
+        width: 500px;
+        background-image: url("menu-desktop.png");
+    }
+}
+
+@buffer allx2{
+    .menu  {
+        background-image: url("menu@x2.png");
+    }
+}
+
+@buffer up320x2 {
+    .menu {
+        background-image: url("menu-small@x2.png");
+    }
+}
+
+//
+// Button
+//
+
+.button {
+    border-radius: 5px;
+}
+
+@buffer up320 {
+    .button {
+        padding: 2px;
+    }
+}
+
+@buffer up992 {
+    .button {
+        padding: 5px;
+    }
+}

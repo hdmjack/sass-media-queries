@@ -1,0 +1,73 @@
+@import "utilities";
+@import "styles";
+
+// Empty @buffer objects are currently not supported:  
+// Comment out any empty @flush statements that reference 
+// @buffer objects that have not been used.
+
+
+// Modern
+
+    // Standard
+
+    @media #{$down767} {
+        //@flush down767;
+    }
+
+    @media #{$up320} {
+        @flush up320;
+    }
+
+    @media #{$up480} {
+        //@flush up480;
+    }
+
+    @media #{$up768} {
+        // @flush up768;
+    }
+
+    @media #{$up992} {
+        @flush up992;
+    }
+
+    @media #{$up1200} {
+        //@flush up1200;
+    }
+
+    @media #{$up1320} {
+        // @flush up1320;
+    }
+
+    // Retina
+
+    @media #{$x2} {
+        @flush allx2;
+    }
+
+    @media #{$x2}, #{$down767} {
+        // @flush down767x2;
+    }
+    
+    @media #{$x2}, #{$up320} {
+        @flush up320x2;
+    }
+
+    @media #{$x2}, #{$up480} {
+        // @flush up480x2;
+    }
+
+    @media #{$x2}, #{$up768} {
+        // @flush up768x2;
+    }
+
+    @media #{$x2}, #{$up992} {
+        // @flush up992x2;
+    }
+
+    @media #{$x2}, #{$up1200} {
+        // @flush up1200x2;
+    }
+
+    @media #{$x2}, #{$up1320} {
+        // @flush up1320x2;
+    }

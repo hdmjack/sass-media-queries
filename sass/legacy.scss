@@ -1,0 +1,11 @@
+@import "styles";
+
+// Empty @buffer objects are currently not supported:  
+// Comment out any empty @flush statements that reference 
+// @buffer objects that have not been used.
+
+// Legacy
+@flush up320;
+//@flush up480;
+//@flush up768;
+@flush up992;
