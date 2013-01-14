@@ -6,7 +6,7 @@ Inspired by the [less-media-queries](https://github.com/buymeasoda/less-media-qu
 
 At this time SASS does not support anything like LESS' buffering functionality, which is essential for providing an elegant fallback stylesheet solution. As such, the code here makes use of Stan Angeloff's very spiffy @buffer branch [explained here](https://github.com/nex3/sass/issues/116#issuecomment-7355117).
 
-As the @buffer feature is __not yet in SASS core__, SASS Media Queries should __only be treated as proof-of-concept__ until @buffer, or similar functionality is fully supported.
+As the @buffer feature is __not yet (and may never be) in SASS core__, SASS Media Queries should __only be treated as proof-of-concept__ until @buffer, or similar functionality, is fully supported.
 
 ##Differences from LESS Media Queries
 
@@ -14,7 +14,7 @@ There are a few important differences in structure to make note of if you are al
 
 * The buffers are directly referenced in modern.scss and legacy.scss, instead of being wrapped in classes
 
-* Referecing empty buffers is not currently supported, so buffers should be commented out or deleted from the modern.scss and legacy.scss if they are unused.
+* Referecing empty buffers is not currently supported, so buffers should be commented out or deleted from the modern.scss and legacy.scss if they are unused
 
 #Sample Component CSS
 
